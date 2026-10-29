@@ -23,7 +23,7 @@ repository               : "fruchet/fruchet.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "hugo.jpeg"
+  avatar           : "hugo.jpg"
   name             : "Hugo Fruchet"
   pronouns         : # example: "she/her"  
   bio              : "PhD student"
