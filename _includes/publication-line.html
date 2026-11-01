@@ -1,5 +1,5 @@
 {%- assign names = include.pub.authors | join: "|" | replace: "Hugo Fruchet", "<strong>Hugo Fruchet</strong>" | split: "|" -%}
-{{ names | join: ", " }}. {{ include.pub.title }}. <em>{{ include.pub.venue }}</em>{% if include.pub.year %}, {{ include.pub.year }}{% endif %}.
+{{ names | join: ", " }}. <em>{{ include.pub.title }}</em>. {{ include.pub.venue }}{% if include.pub.year %}, {{ include.pub.year }}{% endif %}.
 {%- if include.pub.pdf %} [<a href="{{ include.pub.pdf }}">PDF</a>]{% endif -%}
 {%- if include.pub.arxiv %} [<a href="{{ include.pub.arxiv }}">arXiv</a>]{% endif -%}
 {%- if include.pub.code %} [<a href="{{ include.pub.code }}">Code</a>]{% endif -%}
