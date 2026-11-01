@@ -23,7 +23,7 @@ Before my PhD, I studied computer science and AI at [ENS Paris-Saclay](https://e
 {% if site.data.publications.size > 0 %}
 ## Recent publications
 {% for pub in site.data.publications limit:5 %}
-{% include publication-item.html pub=pub %}
+- {% include publication-line.html pub=pub %}
 {% endfor %}
 
 [All publications &rarr;](/publications/)
