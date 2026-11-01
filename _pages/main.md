@@ -7,11 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD student at [ISIR](https://www.isir.upmc.fr/) (Sorbonne Université) and [INRIA](https://www.inria.fr/en/argo) (ENS). I am under the supervision of [Edouard Oyallon](https://edouardoyallon.github.io/) and [Marc Lelarge](https://www.di.ens.fr/~lelarge/).
+I am a first-year PhD student in machine learning, jointly at [ISIR](https://www.isir.upmc.fr/) (Sorbonne Université) and the [ARGO team](https://www.inria.fr/en/argo) at Inria and ENS–PSL, supervised by [Edouard Oyallon](https://edouardoyallon.github.io/) and [Marc Lelarge](https://www.di.ens.fr/~lelarge/).
 
-I am working on the theoretical foundations of scalable reinforcement learning. Before that, I studied at ENS Paris-Saclay on computer science and AI.
+My research focuses on the theoretical foundations of **scalable reinforcement learning**, with applications to **LLM post-training**: understanding how RL methods behave as models, data and compute grow, and how to improve these methods at scale.
 
-**Research interests:** scalable reinforcement learning, scaling laws
+Before my PhD, I studied computer science and AI at [ENS Paris-Saclay](https://ens-paris-saclay.fr/), where I completed the [MVA master's program](https://www.master-mva.com/).
+
+**Research interests:** scalable reinforcement learning, scaling laws, asynchronous RL, LLM post-training
 
 ## News
 {% for item in site.data.news limit:6 %}
