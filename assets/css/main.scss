@@ -37,3 +37,20 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* Right-align the nav tabs; the site title stays on the left */
+.greedy-nav .visible-links {
+  display: flex;
+  align-items: center;
+  min-width: max-content;      /* lets the mobile menu still collapse tabs */
+  width: calc(100% - 80px);    /* leaves room for the menu button when it's shown */
+
+  li:first-child {
+    margin-right: auto;        /* pushes everything after the title to the right */
+  }
+}
+
+/* When the menu button is hidden (wide screens), use the full width */
+.greedy-nav button.hidden ~ .visible-links {
+  width: 100%;
+}
