@@ -20,9 +20,11 @@ Before my PhD, I studied computer science and AI at [ENS Paris-Saclay](https://e
 - **{{ item.date }}**: {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}
 {% endfor %}
 
-{% comment %}
-## Selected publications
-{% for post in site.publications reversed %}{% if post.selected %}
-  {% include archive-single.html %}
-{% endif %}{% endfor %}
-{% endcomment %}
+{% if site.data.publications.size > 0 %}
+## Recent publications
+{% for pub in site.data.publications limit:5 %}
+{% include publication-item.html pub=pub %}
+{% endfor %}
+
+[All publications &rarr;](/publications/)
+{% endif %}

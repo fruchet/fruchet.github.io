@@ -1,0 +1,14 @@
+{% assign names = include.pub.authors | join: "|" | replace: "Hugo Fruchet", "<strong>Hugo Fruchet</strong>" | split: "|" %}
+<div class="publication">
+<p class="publication__title"><strong>{{ include.pub.title }}</strong></p>
+<p class="publication__authors">{{ names | join: ", " }}</p>
+<p class="publication__venue"><em>{{ include.pub.venue }}</em>{% if include.pub.year %}, {{ include.pub.year }}{% endif %}{% if include.pub.note %} &mdash; {{ include.pub.note }}{% endif %}</p>
+<p class="publication__links">
+{% if include.pub.pdf %}<a href="{{ include.pub.pdf }}">PDF</a>{% endif %}
+{% if include.pub.arxiv %}<a href="{{ include.pub.arxiv }}">arXiv</a>{% endif %}
+{% if include.pub.url %}<a href="{{ include.pub.url }}">Link</a>{% endif %}
+{% if include.pub.code %}<a href="{{ include.pub.code }}">Code</a>{% endif %}
+</p>
+<details><summary>BibTeX</summary><pre>{{ include.pub.bibtex | escape }}</pre></details>
+{% if include.pub.abstract %}<details><summary>Abstract</summary><p>{{ include.pub.abstract }}</p></details>{% endif %}
+</div>
