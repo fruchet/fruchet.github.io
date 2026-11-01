@@ -1,2 +1,24 @@
 # Generated from publications.bib by scripts/build_publications.py. Do not edit.
-[]
+- key: fruchet2026quantumai
+  title: 'Quantum Circular Convolutional Neural Networks (QCirCNN): A Parameter and Energy Efficient Model for Computer Vision'
+  authors:
+  - Daphne Wang
+  - Anthony Walsh
+  - Hugo Fruchet
+  - Ariane Soret
+  - Pierre-Emmanuel Emeriau
+  - Shane Mansfield
+  venue: Quantum AI Conference 2026, contributed talk
+  year: 2026
+  bibtex: "@inproceedings{fruchet2026quantumai,\n address = {Indianapolis, IN, USA},\n author = {Wang, Daphne and Walsh, Anthony and Fruchet, Hugo and Soret, Ariane and Emeriau, Pierre-Emmanuel and Mansfield, Shane},\n booktitle = {Quantum AI Conference 2026, contributed talk},\n title = {Quantum Circular Convolutional Neural Networks ({QCirCNN}): A Parameter and Energy Efficient Model for Computer Vision},\n year = {2026}\n}"
+- key: fruchet2025qtml
+  title: 'QCirCNN: a photonic-native quantum circular convolution network based on circulant matrices'
+  authors:
+  - Daphne Wang
+  - Anthony Walsh
+  - Hugo Fruchet
+  - Ariane Soret
+  - Pierre-Emmanuel Emeriau
+  venue: Quantum Techniques in Machine Learning (QTML), poster session
+  year: 2025
+  bibtex: "@inproceedings{fruchet2025qtml,\n address = {Singapore},\n author = {Daphne Wang and Anthony Walsh and Hugo Fruchet and Ariane Soret and Pierre-Emmanuel Emeriau},\n booktitle = {Quantum Techniques in Machine Learning (QTML), poster session},\n title = {QCirCNN: a photonic-native quantum circular convolution network based on circulant matrices},\n year = {2025}\n}"
