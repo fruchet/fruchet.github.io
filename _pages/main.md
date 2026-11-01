@@ -11,7 +11,7 @@ I am a first-year PhD student in machine learning, jointly at [ISIR](https://www
 
 My research focuses on the theoretical foundations of **scalable reinforcement learning**, with applications to **LLM post-training**: understanding how RL methods behave as models, data and compute grow, and how to improve these methods at scale.
 
-Before my PhD, I studied computer science and AI at [ENS Paris-Saclay](https://ens-paris-saclay.fr/), where I completed the [MVA master's program](https://www.master-mva.com/).
+Before my PhD, I studied computer science and AI at [ENS Paris-Saclay](https://ens-paris-saclay.fr/), where I completed the [MVA master's program](https://www.master-mva.com/). Along the way, I worked on quantum machine learning (an internship at [Quandela](https://www.quandela.com/) and a research year), before turning fully to classical machine learning.
 
 **Research interests:** scalable reinforcement learning, scaling laws, asynchronous RL, LLM post-training
 
