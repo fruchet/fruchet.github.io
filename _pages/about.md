@@ -15,6 +15,8 @@ Before my PhD, I studied computer science and AI at [ENS Paris-Saclay](https://e
 
 **Research interests:** scalable reinforcement learning, scaling laws, asynchronous RL, LLM post-training
 
+Drop me an [email](mailto:{{ site.author.email }}) if any of this sounds interesting. I'd love to hear from you!
+
 ## News
 {% for item in site.data.news limit:6 %}
 - **{{ item.date }}**: {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}
